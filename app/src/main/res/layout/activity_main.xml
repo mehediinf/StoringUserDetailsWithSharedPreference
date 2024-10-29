@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:textAlignment="center"
+            android:id="@+id/usr_edit_text_id"
+            android:layout_margin="15dp"
+            android:typeface="serif"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:typeface="monospace"
+            android:inputType="numberPassword"
+            android:id="@+id/psd_edit_text_id"
+            android:layout_margin="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="25sp"
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/saveBtnId"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOAD"
+            android:textSize="25sp"
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loadBtnId"
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewId"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"/>
+
+
+
+
+
+
+</LinearLayout>
